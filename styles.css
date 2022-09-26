@@ -1,3 +1,67 @@
-h1 {
-  background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+.wrapper {
+  background-color: #e5e5e5;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-top: 50%;
+  margin-right: 0;
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 20%;
+  padding: 10px;
+}
+
+.logo a {
+  font-size: 18px;
+  text-decoration: none;
+  color: blue;
+}
+
+.nav_icon {
+  margin: 8px;
+}
+
+.page_one {
+  margin: 200px;
+  background-image: url(images/header-mobile.png);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 100px, 30px;
+
+}
+.page_one h1 {
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-top: 140px;
+}
+
+.part_one p {
+  font-size: 16px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.connect {
+  color: blue;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
 }
