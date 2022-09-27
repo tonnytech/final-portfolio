@@ -1,76 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'poppins', sans-serif;
-  }
+body {
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
-  body {
-    background-color: #e5e5e5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 0;
+  color: blue;
+  font-size: 16px;
+  padding: 10px;
+}
 
-  #header {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 2%;  
-    margin-right: 0;
-    color: blue;
-    font-size: 16px;
-    padding: 10px;
-  }
+.logo a {
+  font-size: 18px;
+  text-decoration: none;
+  color: blue;
+}
 
-  .logo a {
-    font-size: 18px;
-    text-decoration: none;
-    color: blue;
-  }
+.nav_icon {
+  margin: 8px;
+}
 
-  .nav_icon {
-    margin: 8px;
-  }
+#first_page {
+  padding-top: 133px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(images/header-mobile.png);
+  background-repeat: repeat-x;
+}
 
-  #first_page {
-    padding-top: 133px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(images/header-mobile.png);
-    background-repeat: repeat-x;
-  }
+.page_one h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  min-width: 327px;
+  min-height: 150px;
+  line-height: 2px;
+}
 
-  .page_one h1 {
-    font-size: 40px;
-    margin-bottom: 12px;
-    font-weight: 700;
-    min-width: 327px;
-    min-height: 150px;
-    line-height: 2px;
-  }
+.part_one p {
+  min-width: 327px;
+  min-height: 146px;
+  font-size: 16px;
+  line-height: 24px;
+}
 
-  .part_one p {
-    min-width: 327px;
-    min-height: 146px;
-    font-size: 16px;
-    line-height: 24px;
-  }
+.connect {
+  color: blue;
+  margin-bottom: 12px;
+}
 
-  .connect {
-    color: blue;
-    margin-bottom: 12px;
-  }
-
-  .links ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    padding-bottom: 138px;
-  }
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  padding-bottom: 138px;
+}
