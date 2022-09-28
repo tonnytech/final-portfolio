@@ -32,8 +32,8 @@ You can use "code ." for VS Code.
 On your terminal, 
 
 ## Author
- Name: Tonny Tei
- Twitter: @TonnyTei 
+ ~ Name: Tonny Tei
+ ~ Twitter: https://twitter.com/@TonnyTei 
 
  ### Contributing
 Contributions, issues, and features requests are welcome. 
