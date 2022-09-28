@@ -11,7 +11,7 @@ This is the first page of my mobile setup porfolio project. It contains my name 
 
 
 # Getting started
-To get a local copy up and running, do the following:
+To get a local copy up and running, do the following steps:
 
 ## Prerequisites
 1. A text editor
@@ -23,6 +23,7 @@ git clone git@github.com:teitonny/final-portfolio.git
 
 Then run: 
 cd final-portfolio
+
 
 Open the project in your favourite code editor. 
 You can use "code ." for VS Code.
