@@ -1,29 +1,42 @@
 # My portfolio project
-This is a porfolio project that has my details and infromation. 
+## Description
+This is the first page of my mobile setup porfolio project. It contains my name and a brief description of me.
 
-# Getting started
-### What its built with
+## What its built with
 1. HTML
 2. CSS3
 
+### Screanshot
+![mobile-setup-portfolio](images/screenshot.png)
+
+
+# Getting started
+To get a local copy up and running, do the following:
+
 ## Prerequisites
-To be able to make this project work in your system, you will need to have the following installed in your system:
-1. A web browser such as a chrome
-2. A code editor such as a vs code, Notepad, Atom
+1. A text editor
+2. Git and github setup.
 
-You will also need to have some basic knowlege in working with HTML and CSS. 
+## Set it up
+On your terminal, navigate to your current directory and run this code:
+git clone git@github.com:teitonny/final-portfolio.git
 
-## How to use it
+Then run: 
+cd final-portfolio
 
-Use your command line to clone this repository to your local computer.
+Open the project in your favourite code editor. 
+You can use "code ." for VS Code.
+
+
+On your terminal, 
 
 ## Author
  Name: Tonny Tei
- Twiter: https://twitter.com/home?lang=en
+ Twitter: @TonnyTei 
 
  ### Contributing
 Contributions, issues, and features requests are welcome. 
- Feel free to send me an email @ tonnytei4@gmail.com
+Feel free to send me an email @ tonnytei4@gmail.com
 
   ## Show your support
 Give a star if you like my work

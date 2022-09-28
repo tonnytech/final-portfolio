@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
   position: absolute;
   top: 0;
   left: 0;
@@ -43,6 +43,7 @@ body {
   justify-content: center;
   background-image: url(images/header-mobile.png);
   background-repeat: repeat-x;
+  background-size: cover;
 }
 
 .page_one h1 {
