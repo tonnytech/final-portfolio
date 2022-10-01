@@ -85,12 +85,16 @@ body {
   display: grid;
   grid-template-columns: 24px 1fr 24px;
   row-gap: 88px;
+  background-color: #fff;
 }
 
 .left-block {
   grid-column: 2;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6
 }
 
 .primary-image {
@@ -168,6 +172,22 @@ body {
   color: #396df2;
 }
 
+.action a {
+  color: #396df2;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.action a:hover {
+  color: orange;
+  background-color: #396df2;
+}
+
+.active a:active {
+  color:#396df2;
+  background-color: orange;
+}
+
 /* About section */
 
 .upper-part {
@@ -243,8 +263,11 @@ body {
   width: 303px;
   height: 66.72px;
   display: flex;
-  gap: 12px;
+  margin-bottom: 12px;
   background-color: #f7f7f9;
+  margin-left: 36px;
+  margin-right: 36px;
+
 }
 
 .frame-2 ul > li:first-of-type {
