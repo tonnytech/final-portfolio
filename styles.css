@@ -8,11 +8,18 @@
 
 body {
   background-color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
+  max-width: 375px;
+  max-height: 718px;
+}
+
+.cover {
+  background-image: url(images/header-mobile.png);
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.header_margin {
+  margin: 0 24px;
 }
 
 #header {
@@ -35,15 +42,12 @@ body {
   margin: 8px;
 }
 
-#first_page {
+.page_one {
   padding-top: 133px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(images/header-mobile.png);
-  background-repeat: repeat-x;
-  background-size: cover;
 }
 
 .page_one h1 {
