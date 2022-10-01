@@ -8,6 +8,9 @@ This is the first page of my mobile setup porfolio project. It contains my name 
 
 ### Screanshot
 ![mobile-setup-portfolio](images/screenshot.png)
+![middle-section](images/mid-section-1.png)
+![about-section](images/about-section-2.png)
+![contact-section](images/contact-me-section-1.png)
 
 
 # Getting started
