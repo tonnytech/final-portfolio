@@ -242,23 +242,23 @@ body {
   color: #396df2;
 }
 
-.action a:hover {
-  color: orange;
-  background-color: #396df2;
-}
-
-.active a:active {
-  color: #396df2;
+.action:hover {
+  color: #900df2;
   background-color: orange;
 }
 
-.resume a:hover {
+.active:active {
   color: orange;
   background-color: #396df2;
 }
 
-.resume a:active {
-  color: #396df2;
+.resume:hover {
+  color: #900df2;
+  background-color: orange;
+}
+
+.resume:active {
+  color: #900df2;
   background-color: orange;
 }
 
@@ -281,7 +281,6 @@ body {
 
 .language-list ul {
   list-style: none;
-  margin-left: 36px;
 }
 
 .language-list ul li {
@@ -290,7 +289,6 @@ body {
   display: flex;
   margin-bottom: 12px;
   background-color: #f7f7f9;
-  margin-left: 36px;
   margin-right: 36px;
 }
 
