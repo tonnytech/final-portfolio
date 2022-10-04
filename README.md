@@ -6,8 +6,8 @@ This is the first page of my mobile setup porfolio project. It contains my name 
 1. HTML
 2. CSS3
 
-### Screanshot
-![mobile-setup-portfolio](images/screenshot.png)
+### Screenshot
+![mobile-setup-portfolio](images/screen.png)
 
 
 # Getting started
