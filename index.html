@@ -192,13 +192,13 @@
         <form action="#">
             <ul>
                 <li>
-                    <input type="text" name="Full-Name" id="full-name" placeholder="Full-Name" >                    
+                    <input type="text" name="Full-Name" id="full-name" placeholder="Full-Name" required minlength="1" maxlength="30">                    
                 </li>
                 <li>
-                    <input type="email" name="E-mail" id="e-mail" placeholder="E-mail" ">
+                    <input type="email" name="E-mail" id="e-mail" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 </li>
                 <li>
-                    <textarea name="message" id="Message" cols="30" rows="10" placeholder="Write your message here"></textarea>
+                    <textarea name="message" id="Message" cols="30" rows="10" placeholder="Write your message here" required minlength="1" maxlength="500"></textarea>
                 </li>
                 <li>
                     <button type="submit" id="btn">Get in touch</button>
