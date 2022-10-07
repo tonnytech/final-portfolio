@@ -7,13 +7,14 @@
 }
 
 body {
-  background-color: #fff;
+  background-color:  #fff;
 }
 
 .cover {
   background-image: url(images/header-mobile.png);
   padding-left: 24px;
   padding-right: 24px;
+  background-color: #fff;
 }
 
 .header_margin {
@@ -522,35 +523,53 @@ margin-right: 0px;
    #grid-eight {
     align-items: left;
    }
-  
-   .title h1 {
+
+   #second-page .left {
     margin-top: 48px;
     margin-left: 46px;
    }
+  
+   #grid-two .primary-text{
+    margin-left: 0;
+    padding-left: 0;
+   }
+   #grid-two .tags {
+    margin-left: 0;
+   }
+
+   .frame-2 {
+    padding: 0;
+    margin: 0;
+   }
+   
    .frame-2 ul {
-    margin-left: 46px;
+    margin-left: 0;
    } 
+
+   .title h1 {
+    margin-left: 0;
+    padding: 0;
+   }
     #grid-two p {
     margin-left: 46px;
     max-width: 419px;
    }
    .tags ul {
-    margin-left: 46px;
+    margin-left: 0;
     
    }
    .left .action {
-    margin-left: 46px;
+    margin-left: 0px;
    } 
    .for-small-size {
     display: none;
-   } */ */
+   }
 
    /* page three */
    #third-page {
-    display: flex;
     flex-direction: row-reverse;
    }
-   #third-page .second-section {
+   .right {
     flex: 1;
    }
 
@@ -573,12 +592,47 @@ margin-right: 0px;
     margin: 0 auto 32px 48px; 
    }
 
+   /* page four */
+
+   #fourth-page .left{
+    padding-top: 48px;
+    padding-left: 46px;
+   }
+
+   .left .for-small-size {
+    display: none;
+   }
+   .frame-2 {
+    padding-bottom: 20px;
+   }
+
+   #grid-six p {
+    padding-bottom: 26px;
+   }
+
    /* page five */
    
    #page-five {
     display: flex;
     flex-direction: row-reverse;
    }
+   #page-five .right{
+      margin-left: 48px;
+      margin-top: 48px;
+   }
+
+   #page-five p {
+    padding-bottom: 26px;
+   }
+
+   .right .for-small-size {
+    display: none;
+   }
+
+   .frame-2 .action {
+    margin-left: 60px;
+   }
+  
 
  /* About page */
 
@@ -637,6 +691,9 @@ margin-right: 0px;
     background-image: url(images/contact\ form-\ background-shape-desktop.svg);
     padding-left: 142px;
     padding-right: 142px;
+   }
+   .contact h2 {
+    margin-left: 0px;
    }
    .contact p {
     margin-left: 436px;
