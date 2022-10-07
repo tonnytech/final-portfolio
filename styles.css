@@ -460,7 +460,7 @@ form {
     padding: 0PX;
     margin: 25px 0px 0px 155px;
   }
-
+/* page one */
   #header .nav_icon ul {
     display: flex;
     list-style: none;
@@ -508,6 +508,8 @@ margin-right: 0px;
     padding-bottom: 178px;
    }
 
+   /* page two */
+
    #mid {
     display: grid;
     grid-template-columns: 142px 1fr 142px;
@@ -528,20 +530,22 @@ margin-right: 0px;
    .frame-2 ul {
     margin-left: 46px;
    } 
-   #grid-two p {
+    #grid-two p {
     margin-left: 46px;
     max-width: 419px;
    }
    .tags ul {
     margin-left: 46px;
+    
    }
-   #grid-two .action {
+   .left .action {
     margin-left: 46px;
    } 
    .for-small-size {
     display: none;
-   }
+   } */ */
 
+   /* page three */
    #third-page {
     display: flex;
     flex-direction: row-reverse;
@@ -568,10 +572,15 @@ margin-right: 0px;
    #third-page .action {
     margin: 0 auto 32px 48px; 
    }
+
+   /* page five */
+   
    #page-five {
     display: flex;
     flex-direction: row-reverse;
    }
+
+ /* About page */
 
    .about-block {
     display: flex;
@@ -579,8 +588,64 @@ margin-right: 0px;
     margin-left: 142px;
     margin-right: 142px;
    }
+   .upper-part p {
+    margin-left: 0px;
+    margin-top: 12px;
+    max-width: 447px;
+   }
+   .upper-part .resume {
+    margin-bottom: 142px;
+   }
+
+   .lower-part {
+    margin-top: 166px;
+    margin-left: 49px
+   }
+
+   .languages .lang{
+    padding-right: 500px;
+   }
+
+   .language-list ul {
+    display: flex;
+    flex-direction: row;
+   }
+   .language-list ul li {
+    flex-direction: column;
+    max-width: 122px;
+    max-height: 120px;
+    padding-bottom: 25%;
+    padding: 2% 7% 25% 3%;
+   }
+   .frame-work-name {
+    padding-right: 500px;
+   }
+   .after-frame-works {
+    margin-top: 23px;
+   }
+   .skills {
+    margin-bottom: 23px;
+    margin-top: 24px;
+    }
+    .skill-name {
+      padding-right: 500px;
+    }
+    .after-skills {
+      margin-bottom: 166px;
+    }
    .contact {
     background-image: url(images/contact\ form-\ background-shape-desktop.svg);
+    padding-left: 142px;
+    padding-right: 142px;
+   }
+   .contact p {
+    margin-left: 436px;
+    margin-right: 434px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   }
+   #btn {
+    margin-left:  100px;
    }
   }
  
