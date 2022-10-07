@@ -8,8 +8,6 @@
 
 body {
   background-color: #fff;
-  max-width: 375px;
-  max-height: 718px;
 }
 
 .cover {
@@ -243,23 +241,17 @@ body {
 }
 
 .action:hover {
-  color: #900df2;
-  background-color: orange;
+  background-color: #ebebff;
+  color: white;
 }
 
-.active:active {
-  color: orange;
-  background-color: #396df2;
+.action a:hover {
+color: white;
 }
 
 .resume:hover {
-  color: #900df2;
-  background-color: orange;
-}
-
-.resume:active {
-  color: #900df2;
-  background-color: orange;
+  color: white;
+  background-color: #7f8cff;
 }
 
 .languages {
@@ -361,8 +353,6 @@ body {
   text-align: left;
 }
 
-/* contact me section */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 
 .contact {
@@ -372,11 +362,11 @@ body {
   background-image: url("images/contact-form.svg");
   background-position: right;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: none;
   border-radius: 6.5em 0 0 0;
   margin-top: -3.5em;
 }
-
+ 
 .contact h2 {
   font-size: 2em;
   text-align: center;
@@ -452,3 +442,147 @@ form {
   color: white;
   background-color: #7f8cff;
 }
+
+@media all and (max-width: 768px) {
+  #header .nav_icon ul {
+    display: none;
+  }
+  .for-big-size{
+    display: none;
+   }
+}
+
+/* desktop version */
+
+@media all and (min-width: 768px) {
+
+  #header {
+    padding: 0PX;
+    margin: 25px 0px 0px 155px;
+  }
+
+  #header .nav_icon ul {
+    display: flex;
+    list-style: none;
+    margin-right: 154px;
+  }
+  #header .nav_icon ul li {
+    margin-right: 32px;
+  }
+
+   #header .nav_icon ul li:last-of-type {
+margin-right: 0px;
+  } 
+
+  #header .nav_icon a {
+    display: none;
+
+  }
+
+  #first_page {
+    background-image: url(images/Header\ bg@2x.png);
+    background-size:cover;
+    
+  }
+  .cover {
+    background-image: none;
+  }
+  #first_page h1 {
+    margin-left: 260px;
+    padding-top: 281px;
+    margin-bottom: 12px;
+  }
+
+   #first_page p {
+    margin-left: 260px;
+    margin-bottom: 12px;
+   } 
+
+   #first_page .connect {
+      margin-left: 260px;
+   }
+
+   #first_page .links ul {
+    margin-left: 260px;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 178px;
+   }
+
+   #mid {
+    display: grid;
+    grid-template-columns: 142px 1fr 142px;
+   }
+   .left-block {
+    grid-column: 2;
+    flex-direction: row;
+   }
+
+   #grid-eight {
+    align-items: left;
+   }
+  
+   .title h1 {
+    margin-top: 48px;
+    margin-left: 46px;
+   }
+   .frame-2 ul {
+    margin-left: 46px;
+   } 
+   #grid-two p {
+    margin-left: 46px;
+    max-width: 419px;
+   }
+   .tags ul {
+    margin-left: 46px;
+   }
+   #grid-two .action {
+    margin-left: 46px;
+   } 
+   .for-small-size {
+    display: none;
+   }
+
+   #third-page {
+    display: flex;
+    flex-direction: row-reverse;
+   }
+   #third-page .second-section {
+    flex: 1;
+   }
+
+   #third-page h1 {
+    margin: 48px 46px 20px 48px;
+   }
+   #third-page .frame-2{
+    margin: 0;
+    padding: 0;
+   }
+   #third-page ul {
+    margin: 0 auto 32px 48px;
+   }
+
+   #third-page p {
+    margin: 0 auto 32px 48px;
+    max-width: 498px;
+   }
+   #third-page .action {
+    margin: 0 auto 32px 48px; 
+   }
+   #page-five {
+    display: flex;
+    flex-direction: row-reverse;
+   }
+
+   .about-block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 142px;
+    margin-right: 142px;
+   }
+   .contact {
+    background-image: url(images/contact\ form-\ background-shape-desktop.svg);
+   }
+  }
+ 
+
+  
