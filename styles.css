@@ -71,7 +71,7 @@ body {
 
 .connect a {
   text-decoration: none;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .links ul {
@@ -484,7 +484,7 @@ form {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
   }
 
   .tags ul {
@@ -499,14 +499,16 @@ form {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: #6070ff;
   }
+
   .languages .lang {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #344563
+    color: #344563;
+    padding-right: 500px;
   }
 
   .language-list ul {
@@ -540,6 +542,11 @@ form {
     color: #344563;
   }
 
+  .skills {
+    margin-bottom: 23px;
+    margin-top: 24px;
+  }
+
   .lower-part .skills {
     font-style: normal;
     font-weight: 500;
@@ -549,7 +556,7 @@ form {
   }
 
   .action {
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
   }
 
   #third-page ul {
@@ -588,17 +595,24 @@ form {
     padding: 0;
   }
 
+  .right h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
   #first_page h1 {
     margin-left: 260px;
     padding-top: 281px;
     margin-bottom: 12px;
-    font-family: Poppins;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.3700000047683716px;
     text-align: left;
-    color: #091E42;
+    color: #091e42;
   }
 
   .upper-part p {
@@ -612,30 +626,40 @@ form {
     margin-right: 434px;
     margin-top: 12px;
     margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 450px;
+  }
+
+  .right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   #first_page p {
     margin-left: 260px;
     margin-bottom: 12px;
-    font-family: Poppins;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #344563;
   }
 
   #first_page .connect {
     margin-left: 260px;
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-    color: #7F8CFF
-
+    color: #7f8cff;
   }
 
   #first_page .links ul {
@@ -660,19 +684,55 @@ form {
     align-items: left;
   }
 
+  #grid-two p {
+    margin-left: 46px;
+    max-width: 419px;
+  }
+
   #second-page .left {
     margin-top: 48px;
     margin-left: 46px;
   }
 
+  #third-page h1 {
+    margin: 48px 46px 20px 48px;
+  }
+
+  #fourth-page h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
   #second-page .left h1 {
-    font-family: Poppins;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-    color: #091E42;
+    color: #091e42;
+  }
+
+  #third-page p {
+    margin: 0 auto 32px 48px;
+    max-width: 498px;
+  }
+
+  #grid-six p {
+    padding-bottom: 26px;
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  #page-five p {
+    padding-bottom: 26px;
+    padding-top: 32px;
   }
 
   #second-page .left p {
@@ -697,11 +757,6 @@ form {
     padding-bottom: 0 0 0 20px;
   }
 
-  #grid-two p {
-    margin-left: 46px;
-    max-width: 419px;
-  }
-
   .left .action {
     margin-left: 0;
   }
@@ -720,34 +775,9 @@ form {
     flex: 1;
   }
 
-  .right h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091E42;
-  }
-
-  .right p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  #third-page h1 {
-    margin: 48px 46px 20px 48px;
-  }
-
   #third-page .frame-2 {
     margin: 0;
     padding: 0;
-  }
-
-  #third-page p {
-    margin: 0 auto 32px 48px;
-    max-width: 498px;
   }
 
   .frame-2 .action {
@@ -765,26 +795,8 @@ form {
     padding-left: 46px;
   }
 
-  #fourth-page h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091E42;
-  }
-
   .left .for-small-size {
     display: none;
-  }
-
-  #grid-six p {
-    padding-bottom: 26px;
-    padding-top: 32px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
   }
 
   /* page five */
@@ -797,7 +809,7 @@ form {
   #page-five #grid-eight h1 {
     margin-bottom: 12px;
     text-align: left;
-    color: #091E42;
+    color: #091e42;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -807,11 +819,6 @@ form {
   #page-five .right {
     margin-left: 48px;
     margin-top: 48px;
-  }
-
-  #page-five p {
-    padding-bottom: 26px;
-    padding-top: 32px;
   }
 
   .right .for-small-size {
@@ -830,7 +837,7 @@ form {
   .upper-part {
     display: flex;
     flex-direction: column;
-   }
+  }
 
   .about-myself {
     display: flex;
@@ -838,7 +845,7 @@ form {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .about-text {
@@ -866,21 +873,12 @@ form {
     margin-left: 49px;
   }
 
-  .languages .lang {
-    padding-right: 500px;
-  }
-
   .frame-work-name {
     padding-right: 500px;
   }
 
   .after-frame-works {
     margin-top: 23px;
-  }
-
-  .skills {
-    margin-bottom: 23px;
-    margin-top: 24px;
   }
 
   .skill-name {
@@ -902,14 +900,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .contact p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    width: 450px;
   }
 
   .contact h2 {
