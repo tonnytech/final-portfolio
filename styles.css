@@ -38,6 +38,41 @@ body {
   color: blue;
 }
 
+.logo {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.connect a {
+  text-decoration: none;
+  color: blue;
+}
+
+.action a {
+  color: #396df2;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.about-connect a {
+  text-decoration: none;
+  color: #7f8cff;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #396df2;
+}
+
+.logo a:hover {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .nav_icon {
   margin: 8px;
 }
@@ -69,11 +104,6 @@ body {
 .connect {
   color: blue;
   margin-bottom: 12px;
-}
-
-.connect a {
-  text-decoration: none;
-  color: blue;
 }
 
 .links ul {
@@ -177,12 +207,6 @@ body {
   color: #396df2;
 }
 
-.action a {
-  color: #396df2;
-  text-decoration: none;
-  border-radius: 8px;
-}
-
 /* About section */
 
 .upper-part {
@@ -212,11 +236,6 @@ body {
   color: #7f8cff;
 }
 
-.about-connect a {
-  text-decoration: none;
-  color: #7f8cff;
-}
-
 .about-tags ul {
   display: flex;
   list-style: none;
@@ -235,11 +254,6 @@ body {
   color: #396df2;
   margin-bottom: 60px;
   border: 1px solid #6070ff;
-}
-
-.resume a {
-  text-decoration: none;
-  color: #396df2;
 }
 
 .action:hover {
