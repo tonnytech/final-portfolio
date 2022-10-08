@@ -66,13 +66,12 @@ body {
 }
 
 .connect {
-  color: blue;
   margin-bottom: 12px;
 }
 
 .connect a {
   text-decoration: none;
-  color: blue;
+  color: #7F8CFF;
 }
 
 .links ul {
@@ -452,6 +451,10 @@ form {
   .for-big-size {
     display: none;
   }
+
+  .for-big-size p {
+    padding-top: 0;
+  }
 }
 
 /* desktop version */
@@ -462,14 +465,48 @@ form {
     margin: 25px 0 0 155px;
   }
 
+  #header .nav_icon {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
   /* page one */
 
   .frame-2 ul {
     margin-left: 0;
   }
 
+  .frame-2 ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6B778C;
+  }
+
   .tags ul {
     margin-left: 0;
+  }
+
+  .tags ul li {
+    display: flex;
+    padding: 1%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070FF;
+  }
+  .languages .lang {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563
   }
 
   .language-list ul {
@@ -478,10 +515,41 @@ form {
   }
 
   .language-list ul li {
+    display: flex;
     flex-direction: column;
     max-width: 122px;
-    max-height: 120px;
-    padding: 2% 7% 25% 3%;
+    height: 120px;
+    padding: 10px;
+    width: fit-content;
+  }
+
+  .language-list .icon-name {
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+  }
+
+  .lower-part .frame-works {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .lower-part .skills {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .action {
+    border: 1px solid #6070FF;
   }
 
   #third-page ul {
@@ -524,6 +592,13 @@ form {
     margin-left: 260px;
     padding-top: 281px;
     margin-bottom: 12px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #091E42;
   }
 
   .upper-part p {
@@ -542,10 +617,25 @@ form {
   #first_page p {
     margin-left: 260px;
     margin-bottom: 12px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344563;
   }
 
   #first_page .connect {
     margin-left: 260px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F8CFF
+
   }
 
   #first_page .links ul {
@@ -573,6 +663,24 @@ form {
   #second-page .left {
     margin-top: 48px;
     margin-left: 46px;
+  }
+
+  #second-page .left h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091E42;
+  }
+
+  #second-page .left p {
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   #grid-two .primary-text {
@@ -612,6 +720,22 @@ form {
     flex: 1;
   }
 
+  .right h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+
+  .right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
   #third-page h1 {
     margin: 48px 46px 20px 48px;
   }
@@ -641,12 +765,26 @@ form {
     padding-left: 46px;
   }
 
+  #fourth-page h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+
   .left .for-small-size {
     display: none;
   }
 
   #grid-six p {
     padding-bottom: 26px;
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   /* page five */
@@ -656,6 +794,16 @@ form {
     flex-direction: row-reverse;
   }
 
+  #page-five #grid-eight h1 {
+    margin-bottom: 12px;
+    text-align: left;
+    color: #091E42;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
   #page-five .right {
     margin-left: 48px;
     margin-top: 48px;
@@ -663,6 +811,7 @@ form {
 
   #page-five p {
     padding-bottom: 26px;
+    padding-top: 32px;
   }
 
   .right .for-small-size {
@@ -674,12 +823,42 @@ form {
   .about-block {
     display: flex;
     flex-direction: row;
-    margin-left: 142px;
-    margin-right: 142px;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .upper-part {
+    display: flex;
+    flex-direction: column;
+   }
+
+  .about-myself {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+
+  .about-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    width: 300px;
+  }
+
+  .about-connect {
+    margin-top: 12px;
   }
 
   .upper-part .resume {
-    margin-bottom: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .lower-part {
@@ -709,20 +888,40 @@ form {
   }
 
   .after-skills {
-    margin-bottom: 166px;
+    margin-bottom: 20px;
+  }
+
+  /* contact page */
+
+  .contact-section {
+    margin-top: 146px;
   }
 
   .contact {
     background-image: url(images/contact\ form-\ background-shape-desktop.svg);
-    padding-left: 142px;
-    padding-right: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 450px;
   }
 
   .contact h2 {
     margin-left: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   #btn {
     margin-left: 100px;
+    margin-bottom: 139px;
   }
 }
