@@ -6,8 +6,12 @@ This is the first page of my mobile setup porfolio project. It contains my name 
 1. HTML
 2. CSS3
 
-### Screanshot
+### Screenshot
 ![mobile-setup-portfolio](images/screenshot.png)
+![middle-section](images/mid-section-1.png)
+![about-section](images/about-section-2.png)
+![contact-section](images/contact-me-section-1.png)
+
 
 
 # Getting started
@@ -40,7 +44,7 @@ Contributions, issues, and features requests are welcome.
 Feel free to send me an email @ tonnytei4@gmail.com
 
   ## Show your support
-Give a star if you like my work
+Give a ⭐️ if you like this project!
 
 ## Acknowledgement
 Thanks to microverse for teaching me how to write codes.
