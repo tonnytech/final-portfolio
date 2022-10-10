@@ -12,7 +12,8 @@ This is the first page of my mobile setup porfolio project. It contains my name 
 ![about-section](images/about-section-2.png)
 ![contact-section](images/contact-me-section-1.png)
 
-
+# Live preview
+https://teitonny.github.io/
 
 # Getting started
 To get a local copy up and running, do the following steps:
