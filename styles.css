@@ -154,6 +154,7 @@ body {
   padding: 0;
   gap: 8px;
   margin-left: 16px;
+  margin-top: 12px;
 }
 
 .tags ul li {
@@ -161,6 +162,13 @@ body {
   letter-spacing: 3%;
   background-color: #ebebff;
   border-radius: 8px;
+  display: flex;
+  padding: 1%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
 }
 
 .action {
@@ -363,7 +371,7 @@ body {
   color: white;
   background-image: url("images/contact-form.svg");
   background-position: right;
-  background-size: contain;
+  background-size: cover;
   background-repeat: none;
   border-radius: 6.5em 0 0 0;
   margin-top: -3.5em;
@@ -457,6 +465,9 @@ form {
   .for-big-size p {
     padding-top: 0;
   }
+  .tags .for-big-size {
+    display: none;
+  }
 }
 
 /* desktop version */
@@ -491,17 +502,6 @@ form {
 
   .tags ul {
     margin-left: 0;
-  }
-
-  .tags ul li {
-    display: flex;
-    padding: 1%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
   }
 
   .languages .lang {
