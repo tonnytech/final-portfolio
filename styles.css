@@ -691,6 +691,10 @@ form {
     max-width: 419px;
   }
 
+  #grid-two .tags ul {
+    margin-top: 35px;
+  }
+
   #second-page .left {
     margin-top: 48px;
     margin-left: 46px;
