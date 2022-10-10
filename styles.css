@@ -8,14 +8,13 @@
 
 body {
   background-color: #fff;
-  max-width: 375px;
-  max-height: 718px;
 }
 
 .cover {
   background-image: url(images/header-mobile.png);
   padding-left: 24px;
   padding-right: 24px;
+  background-color: #fff;
 }
 
 .header_margin {
@@ -67,13 +66,12 @@ body {
 }
 
 .connect {
-  color: blue;
   margin-bottom: 12px;
 }
 
 .connect a {
   text-decoration: none;
-  color: blue;
+  color: #7f8cff;
 }
 
 .links ul {
@@ -243,23 +241,17 @@ body {
 }
 
 .action:hover {
-  color: #900df2;
-  background-color: orange;
+  background-color: #ebebff;
+  color: white;
 }
 
-.active:active {
-  color: orange;
-  background-color: #396df2;
+.action a:hover {
+  color: white;
 }
 
 .resume:hover {
-  color: #900df2;
-  background-color: orange;
-}
-
-.resume:active {
-  color: #900df2;
-  background-color: orange;
+  color: white;
+  background-color: #7f8cff;
 }
 
 .languages {
@@ -362,6 +354,7 @@ body {
 }
 
 /* contact me section */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 
 .contact {
@@ -371,7 +364,7 @@ body {
   background-image: url("images/contact-form.svg");
   background-position: right;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: none;
   border-radius: 6.5em 0 0 0;
   margin-top: -3.5em;
 }
@@ -450,4 +443,477 @@ form {
 #btn:hover {
   color: white;
   background-color: #7f8cff;
+}
+
+@media all and (max-width: 768px) {
+  #header .nav_icon ul {
+    display: none;
+  }
+
+  .for-big-size {
+    display: none;
+  }
+
+  .for-big-size p {
+    padding-top: 0;
+  }
+}
+
+/* desktop version */
+
+@media all and (min-width: 768px) {
+  #header {
+    padding: 0;
+    margin: 25px 0 0 155px;
+  }
+
+  #header .nav_icon {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  /* page one */
+
+  .frame-2 ul {
+    margin-left: 0;
+  }
+
+  .frame-2 ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .tags ul {
+    margin-left: 0;
+  }
+
+  .tags ul li {
+    display: flex;
+    padding: 1%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+
+  .languages .lang {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    padding-right: 500px;
+  }
+
+  .language-list ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .language-list ul li {
+    display: flex;
+    flex-direction: column;
+    max-width: 122px;
+    height: 120px;
+    padding: 10px;
+    width: fit-content;
+  }
+
+  .language-list .icon-name {
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+  }
+
+  .lower-part .frame-works {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .skills {
+    margin-bottom: 23px;
+    margin-top: 24px;
+  }
+
+  .lower-part .skills {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .action {
+    border: 1px solid #6070ff;
+  }
+
+  #third-page ul {
+    margin: 0 auto 32px 48px;
+  }
+
+  #header .nav_icon ul {
+    display: flex;
+    list-style: none;
+    margin-right: 154px;
+  }
+
+  #header .nav_icon ul li {
+    margin-right: 32px;
+  }
+
+  #header .nav_icon ul li:last-of-type {
+    margin-right: 0;
+  }
+
+  #header .nav_icon a {
+    display: none;
+  }
+
+  #first_page {
+    background-image: url(images/Header\ bg@2x.png);
+    background-size: cover;
+  }
+
+  .cover {
+    background-image: none;
+  }
+
+  .title h1 {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .right h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  #first_page h1 {
+    margin-left: 260px;
+    padding-top: 281px;
+    margin-bottom: 12px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #091e42;
+  }
+
+  .upper-part p {
+    margin-left: 0;
+    margin-top: 12px;
+    max-width: 447px;
+  }
+
+  .contact p {
+    margin-left: 436px;
+    margin-right: 434px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 450px;
+  }
+
+  .right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  #first_page p {
+    margin-left: 260px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #344563;
+  }
+
+  #first_page .connect {
+    margin-left: 260px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #7f8cff;
+  }
+
+  #first_page .links ul {
+    margin-left: 260px;
+    padding: 0;
+    padding-bottom: 178px;
+  }
+
+  /* page two */
+
+  #mid {
+    display: grid;
+    grid-template-columns: 142px 1fr 142px;
+  }
+
+  .left-block {
+    grid-column: 2;
+    flex-direction: row;
+  }
+
+  #grid-eight {
+    align-items: left;
+  }
+
+  #grid-two p {
+    margin-left: 46px;
+    max-width: 419px;
+  }
+
+  #second-page .left {
+    margin-top: 48px;
+    margin-left: 46px;
+  }
+
+  #third-page h1 {
+    margin: 48px 46px 20px 48px;
+  }
+
+  #fourth-page h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  #second-page .left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #091e42;
+  }
+
+  #third-page p {
+    margin: 0 auto 32px 48px;
+    max-width: 498px;
+  }
+
+  #grid-six p {
+    padding-bottom: 26px;
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  #page-five p {
+    padding-bottom: 26px;
+    padding-top: 32px;
+  }
+
+  #second-page .left p {
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #grid-two .primary-text {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #grid-two .tags {
+    margin-left: 0;
+  }
+
+  .frame-2 {
+    margin: 0;
+    padding-bottom: 0 0 0 20px;
+  }
+
+  .left .action {
+    margin-left: 0;
+  }
+
+  .for-small-size {
+    display: none;
+  }
+
+  /* page three */
+
+  #third-page {
+    flex-direction: row-reverse;
+  }
+
+  .right {
+    flex: 1;
+  }
+
+  #third-page .frame-2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .frame-2 .action {
+    margin-left: 60px;
+  }
+
+  #third-page .action {
+    margin: 0 auto 32px 48px;
+  }
+
+  /* page four */
+
+  #fourth-page .left {
+    padding-top: 48px;
+    padding-left: 46px;
+  }
+
+  .left .for-small-size {
+    display: none;
+  }
+
+  /* page five */
+
+  #page-five {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #page-five #grid-eight h1 {
+    margin-bottom: 12px;
+    text-align: left;
+    color: #091e42;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #page-five .right {
+    margin-left: 48px;
+    margin-top: 48px;
+  }
+
+  .right .for-small-size {
+    display: none;
+  }
+
+  /* About page */
+
+  .about-block {
+    display: flex;
+    flex-direction: row;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .upper-part {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-myself {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .about-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    width: 300px;
+  }
+
+  .about-connect {
+    margin-top: 12px;
+  }
+
+  .upper-part .resume {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .lower-part {
+    margin-top: 166px;
+    margin-left: 49px;
+  }
+
+  .frame-work-name {
+    padding-right: 500px;
+  }
+
+  .after-frame-works {
+    margin-top: 23px;
+  }
+
+  .skill-name {
+    padding-right: 500px;
+  }
+
+  .after-skills {
+    margin-bottom: 20px;
+  }
+
+  /* contact page */
+
+  .contact-section {
+    margin-top: 146px;
+  }
+
+  .contact {
+    background-image: url(images/contact\ form-\ background-shape-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact h2 {
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #btn {
+    margin-left: 100px;
+    margin-bottom: 139px;
+  }
 }
