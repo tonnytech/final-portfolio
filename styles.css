@@ -167,7 +167,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  letter-spacing: 0.03em;
   color: #6070ff;
 }
 
@@ -465,6 +464,7 @@ form {
   .for-big-size p {
     padding-top: 0;
   }
+
   .tags .for-big-size {
     display: none;
   }
