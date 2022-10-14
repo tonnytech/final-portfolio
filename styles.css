@@ -31,6 +31,10 @@ body {
   padding: 10px;
 }
 
+#header .nav_icon ul {
+  display: none;
+}
+
 .logo a {
   font-size: 18px;
   text-decoration: none;
@@ -473,38 +477,18 @@ form {
   color: white;
   background-color: #7f8cff;
 }
-/* try */
-#header .nav_icon ul {
-  display: none;
-}
+
 .for-big-size {
   display: none;
 }
+
 .for-big-size p {
   padding-top: 0;
 }
+
 .tags .for-big-size {
   display: none;
 }
-
-/* end-try */
-/* @media all and (max-width: 768px) {
-  #header .nav_icon ul {
-    display: none;
-  }
-
-  .for-big-size {
-    display: none;
-  }
-
-  .for-big-size p {
-    padding-top: 0;
-  }
-
-  .tags .for-big-size {
-    display: none;
-  }
-} */
 
 /* desktop version */
 
