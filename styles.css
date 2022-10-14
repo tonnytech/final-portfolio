@@ -49,13 +49,14 @@ body {
   justify-content: center;
 }
 
-.page_one h1 {
+.cover #first-page h1 {
   font-size: 40px;
   margin-bottom: 12px;
   font-weight: 700;
   min-width: 327px;
   min-height: 150px;
   line-height: 2px;
+  color: red;
 }
 
 .part_one p {
@@ -455,6 +456,10 @@ form {
 @media all and (max-width: 768px) {
   #header .nav_icon ul {
     display: none;
+  }
+
+  #first-page h1 {
+    color: red;
   }
 
   .for-big-size {
