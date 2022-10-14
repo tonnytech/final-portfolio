@@ -49,6 +49,12 @@ body {
   justify-content: center;
 }
 
+.title h1 {
+  margin-bottom: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .cover #first-page h1 {
   font-size: 40px;
   margin-bottom: 12px;
@@ -107,12 +113,6 @@ body {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
-}
-
-.title h1 {
-  margin-bottom: 20px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .frame-2 {
