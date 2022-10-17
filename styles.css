@@ -35,6 +35,10 @@ body {
   display: none;
 }
 
+.logo-icon {
+  padding: 0.1rem 1.4rem 0 0;
+}
+
 .logo a {
   font-size: 18px;
   text-decoration: none;
@@ -63,7 +67,6 @@ body {
   font-weight: 700;
   min-width: 327px;
   min-height: 150px;
-  /* line-height: 2px; */
   color: #091e42;
 }
 
