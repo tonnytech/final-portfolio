@@ -31,6 +31,79 @@ body {
   padding: 10px;
 }
 
+/* mobile menu */
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 27px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: blue;
+  height: 1.9px;
+}
+
+.mobile-menu.active .bar:nth-child(2){
+  opacity: 0;
+  transition: 0.3s ease;
+  background: blue;
+}
+
+.mobile-menu.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+  background: whitesmoke;
+  transition: 0.2s ease;
+  height: 4px;
+}
+
+.mobile-menu.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+  background: white;
+  transition: 0.6s ease;
+  height: 4px;
+}
+
+.nav_icon-two {
+  list-style-type: none;
+  left: -120%;
+  height: 100%;
+  top: 0;
+  flex-direction: column;
+  position: fixed;
+  backdrop-filter: blur(8px);
+  background: #6070ff;
+  width: 100%;
+  transition: 0.5s ease;
+  mix-blend-mode: multiply;
+  padding-top: 150px;
+}
+
+.nav_icon-two li {
+  padding: 1rem 0 0 1rem;
+}
+
+.nav_icon-two .nav-link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.nav_icon-two .nav-link a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.nav_icon-two.active {
+  left: 0;
+}
+
 .links ul {
   list-style-type: none;
   display: flex;
@@ -72,10 +145,6 @@ body {
   margin: 0 auto;
   padding: 1.5em;
   list-style-type: none;
-}
-
-#header .nav_icon ul {
-  display: none;
 }
 
 .logo-icon {
@@ -508,6 +577,10 @@ form {
     color: #344563;
   }
 
+  .nav_icon ul {
+    display: block;
+  }
+
   /* page one */
 
   .for-big-size {
@@ -595,6 +668,10 @@ form {
     border: 1px solid #6070ff;
   }
 
+  a{
+    text-decoration: none;
+  }
+
   #third-page ul {
     margin: 0 auto 32px 48px;
   }
@@ -602,18 +679,19 @@ form {
   #header .nav_icon ul {
     display: flex;
     list-style: none;
-    margin-right: 154px;
+    margin-left: 1%;
   }
 
-  #header .nav_icon ul li {
-    margin-right: 32px;
+  nav ul li a {
+    margin-right: 130px;
+    list-style-type: none;
   }
 
   #header .nav_icon ul li:last-of-type {
     margin-right: 0;
   }
 
-  #header .nav_icon a {
+  #header .nav_icon .logo-icon {
     display: none;
   }
 
