@@ -83,7 +83,7 @@ body {
 }
 
 .nav_icon-two li {
-  padding: 1rem 0 0 1rem;
+  padding: 2rem 0 0 10rem;
 }
 
 .nav_icon-two .nav-link {
@@ -95,9 +95,8 @@ body {
 
 .nav_icon-two .nav-link a {
   color: white;
-  font-size: 25px;
+  font-size: 100px;
   text-decoration: none;
-  font-weight: 100;
 }
 
 .nav_icon-two.active {
@@ -569,12 +568,37 @@ form {
     margin: 25px 0 0 155px;
   }
 
-  #header .nav_icon {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+  #header .nav_icon-two {
+    left: 0;
+    flex-direction: row;
+    position: fixed;
+    backdrop-filter: blur(0);
+    transition: 0.5s ease;
+    background-color: white;
+    gap: 0;
+    margin-top: 25px;
+    padding: 5px 0 0 50rem;
+  }
+
+  #header .nav_icon-two li {
+    padding: 0;
+    margin-right: 100px;
+    display: flex;
+   
+  }
+
+  #header .nav_icon-two .nav-link {
+    padding: 0;
+    margin: 0;
     color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .nav_icon ul {
