@@ -37,8 +37,18 @@ You can use "code ." for VS Code.
 On your terminal, 
 
 ## Author
- ~ Name: Tonny Tei
- ~ Twitter: https://twitter.com/@TonnyTei 
+
+ 👤 **Tonny Tei**
+-Github: [@teitonny](https://github.com/teitonny)
+-Twiter: [@TonnyTei](https://twitter.com/TonnyTei)
+-linkedIn: [TonnyTei](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
+
+
+ 👤 **Abdifatah**
+
+- GitHub: [@AbdifatahYasin1](https://github.com/AbdifatahYasin1)
+- Twitter: [@CabdifataaxYuusuf](https://twitter.com/CabdifataaxYy)
+- LinkedIn: [Cabdifataax Yaasiin](https://www.linkedin.com/in/cabdifataax-yaasiin-69977019a/)
 
  ### Contributing
 Contributions, issues, and features requests are welcome. 
