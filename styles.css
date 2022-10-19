@@ -84,10 +84,6 @@ body {
   padding: 40px 0 0 28px;
 }
 
-.nav_icon-two li:first-of-type {
-  padding-top: 106px;
-}
-
 .resume a {
   text-decoration: none;
   color: #396df2;
@@ -96,7 +92,6 @@ body {
 .nav_icon-two .nav-link {
   color: #fff;
   text-decoration: none;
-  font-weight: 100;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
@@ -398,6 +393,10 @@ body {
   margin-bottom: 12px;
   background-color: #f7f7f9;
   margin-right: 36px;
+}
+
+.nav_icon-two li:first-of-type {
+  padding-top: 106px;
 }
 
 .frame-2 ul > li:first-of-type {
