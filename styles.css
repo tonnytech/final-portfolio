@@ -71,7 +71,6 @@ body {
   list-style-type: none;
   left: -120%;
   height: 100%;
-  top: 0;
   flex-direction: column;
   position: fixed;
   backdrop-filter: blur(8px);
@@ -79,11 +78,14 @@ body {
   width: 100%;
   transition: 0.5s ease;
   mix-blend-mode: multiply;
-  padding-top: 150px;
 }
 
 .nav_icon-two li {
-  padding: 2rem 0 0 10rem;
+  padding: 40px 0 0 28px;
+}
+
+.nav_icon-two li:first-of-type {
+  padding-top: 106px;
 }
 
 .resume a {
@@ -92,10 +94,14 @@ body {
 }
 
 .nav_icon-two .nav-link {
-  color: white;
-  font-size: 25px;
+  color: #fff;
   text-decoration: none;
   font-weight: 100;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .logo a {
