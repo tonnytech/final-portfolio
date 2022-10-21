@@ -481,17 +481,19 @@ body {
   padding-left: 5rem;
   animation: opacityOn 2s normal forwards;
   animation-delay: 0s;
-};
+}
 
 @keyframes opacityOn {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
+
   30% {
-      opacity: 1;
+    opacity: 1;
   }
+
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
@@ -595,7 +597,7 @@ form {
     margin: 0 0 0 155px;
     position: fixed;
     top: -8px;
-    width: 100%; 
+    width: 100%;
   }
 
   #header .nav_icon-two {
