@@ -251,13 +251,15 @@
     <div class="contact">
         <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-        <form  action="https://formspree.io/f/xvoyrvqp"  method="POST">
+        
+        <form action="https://formspree.io/f/xvoyrvqp"  method="POST"  class="contact-me"  >
+            <div class="email-validation"></div>
             <ul>
                 <li>
                     <input type="text" name="Full-Name" id="full-name" placeholder="Full-Name" required minlength="1" maxlength="30">                    
                 </li>
                 <li>
-                    <input type="email" name="E-mail" id="e-mail" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <input type="email" name="E-mail" id="e-mail" placeholder="E-mail" required>
                 </li>
                 <li>
                     <textarea name="message" id="Message" cols="30" rows="10" placeholder="Write your message here" required minlength="1" maxlength="500"></textarea>
