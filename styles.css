@@ -673,6 +673,7 @@ form {
 
   .tags ul {
     margin-left: 0;
+    
   }
 
   .languages .lang {
@@ -902,11 +903,13 @@ form {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    max-width: 498px;
   }
 
   #page-five p {
     padding-bottom: 26px;
     padding-top: 32px;
+    max-width: 490px;
   }
 
   #second-page .left p {
