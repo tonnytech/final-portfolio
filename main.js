@@ -8,3 +8,19 @@ document.querySelectorAll('.nav-link').forEach((nav) => nav.addEventListener('cl
   mobileMenu.classList.remove('active');
   navList.classList.remove('active');
 }));
+
+// email-validation
+
+const contactForm = document.querySelector('.contact-me');
+const warning = document.querySelector('.email-validation');
+
+contactForm.addEventListener('submit', (e) => {
+  const enterdEmail = document.querySelector('#e-mail').value;
+  if (enterdEmail.toLowerCase() !== enterdEmail) {
+    e.preventDefault();
+    warning.classList.add('active');
+    warning.innerHTML = 'kindly write your email in lower case letters';
+  } else {
+    contactForm.submit();
+  }
+});
