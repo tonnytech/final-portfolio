@@ -479,7 +479,7 @@ body {
   color: red;
   display: flex;
   padding-left: 5rem;
-  animation: opacityOn 2s normal forwards;
+  animation: opacityOn 9s normal forwards;
   animation-delay: 0s;
 }
 
