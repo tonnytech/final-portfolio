@@ -1,3 +1,5 @@
+
+//Hamburger menu
 const mobileMenu = document.querySelector('.mobile-menu');
 const navList = document.querySelector('.nav_icon-two');
 mobileMenu.addEventListener('click', () => {
@@ -9,7 +11,7 @@ document.querySelectorAll('.nav-link').forEach((nav) => nav.addEventListener('cl
   navList.classList.remove('active');
 }));
 
-// email-validation
+// Form-validation using JS
 
 const contactForm = document.querySelector('.contact-me');
 const warning = document.querySelector('.email-validation');
