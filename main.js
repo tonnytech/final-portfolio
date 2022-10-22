@@ -11,7 +11,7 @@ document.querySelectorAll('.nav-link').forEach((nav) => nav.addEventListener('cl
   navList.classList.remove('active');
 }));
 
-// Form-validation using JS
+// Form-validation using Javascript
 
 const contactForm = document.querySelector('.contact-me');
 const warning = document.querySelector('.email-validation');
