@@ -17,8 +17,8 @@ const projectSection = document.querySelector('#mid');
 const popUp = document.querySelector('.pop-up-window');
 
 contactForm.addEventListener('submit', (e) => {
-  const enterdEmail = document.querySelector('#e-mail').value;
-  if (enterdEmail.toLowerCase() !== enterdEmail) {
+  const enteredEmail = document.querySelector('#e-mail').value;
+  if (enteredEmail.toLowerCase() !== enteredEmail) {
     e.preventDefault();
     warning.classList.add('active');
     warning.innerHTML = 'kindly write your email in lower case letters';
@@ -29,27 +29,30 @@ contactForm.addEventListener('submit', (e) => {
 
 const myProjects = [
   {
-    imageSmall: './images/project1.png',
-    imageBig: './images/Snapshoot Portfolio.png',
-    title: 'Tonic',
-    client: 'CANOPY',
-    position: 'Back End Dev',
-    year: '2015',
-    description: 'Daily selection of privately personalised reads" no accounts or signups required.',
-    skills: ['html', 'css', 'javascript'],
+    Live: 'https://tonnytech.github.io/Music-concert-landing-page/src/',
+    Repo: 'https://github.com/tonnytech/Music-concert-landing-page',
+    imageBig: './images/Snapshoot-Portfolio.png',
+    title: 'Music concert landing page',
+    client: 'FREELANCE',
+    position: 'Front End Dev',
+    year: '2023',
+    description: 'This is a landing page for a music festival website build using tailwind css. The focus is on design.',
+    skills: ['html', 'Tailwind Css', 'javascript'],
     divOneId: 'second-page',
     divTowId: 'grid-one',
     divThreeId: 'grid-two',
     direction: 'left',
   },
   {
+    Live: 'https://6423846ac26b5b1f0ecbe550--glistening-biscuit-1940a3.netlify.app/',
+    Repo: 'https://github.com/tonnytech/BookStore',
     imageSmall: './images/project2.png',
-    imageBig: './images/Snapshoot Portfolio two.png',
-    title: 'Multi-post Stories',
-    client: 'CANOPY',
-    position: 'Back End Dev',
-    year: '2015',
-    description: ' Daily selection of privately personalised reads" no accounts or signups required.',
+    imageBig: './images/Snapshoot-Portfolio-two.png',
+    title: 'BookStore CMS',
+    client: 'Microverse',
+    position: 'Front End Dev',
+    year: '2023',
+    description: ' Book Store is a React application developed using React and Redux. I used create-react-app and redux-toolkit tools for development.A user can add a book to the App and update their reading progress, which will be persisted in an API.',
     skills: ['html', 'css', 'javascript'],
     divOneId: 'third-page',
     divTowId: 'grid-three',
@@ -57,27 +60,31 @@ const myProjects = [
     direction: 'right',
   },
   {
+    Live: 'https://web-metrics.netlify.app/',
+    Repo: 'https://github.com/tonnytech/Metrics-webapp',
     imageSmall: './images/project3.png',
-    imageBig: './images/Snapshoot Portfolio-three.png',
-    title: 'Facebook 360',
-    client: 'CANOPY',
-    position: 'Back End Dev',
-    year: '2015',
-    description: ' Daily selection of privately personalised reads" no accounts or signups required.',
-    skills: ['html', 'css', 'javascript'],
+    imageBig: './images/Snapshoot-Portfolio-three.png',
+    title: 'Countries Mobile website',
+    client: 'Microverse',
+    position: 'Front End Dev',
+    year: '2023',
+    description: 'A mobile website that gets countries data from an API and displays them in a page.',
+    skills: ['React', 'Redux', 'Javascript'],
     divOneId: 'fourth-page',
     divTowId: 'grid-five',
     divThreeId: 'grid-six',
     direction: 'left',
   },
   {
+    Live: 'https://tonnytech.github.io/To-do-list-with-webpack/dist/',
+    Repo: 'https://github.com/tonnytech/To-do-list-with-webpack',
     imageSmall: './images/project4.png',
-    imageBig: './images/Snapshoot Portfolio-four.png',
-    title: 'Uber Navigation',
-    client: 'CANOPY',
-    position: 'Back End Dev',
-    year: '2015',
-    description: 'Daily selection of privately personalised reads" no accounts or signups required.',
+    imageBig: './images/Snapshoot-Portfolio-four.png',
+    title: 'To Do List',
+    client: 'Microverse',
+    position: 'Front End Dev',
+    year: '2023',
+    description: 'This is a To-Do list website that enables the user to list the tasks. It is possible to add, edit, and delete each task.',
     skills: ['html', 'css', 'javascript'],
     divOneId: 'page-five',
     divTowId: 'grid-seven',
@@ -87,15 +94,16 @@ const myProjects = [
 ];
 
 const displayProjects = ({
-  imageSmall, imageBig, title, client, position, year, description, skills,
+  imageBig, title, client, position, year, description, skills,
   divOneId, divTowId, divThreeId, direction,
 }, index) => {
   const div = document.createElement('div');
+
   div.className = 'left-block';
   div.id = `${divOneId}`;
   div.innerHTML = `
 <div class="primary-image" id="${divTowId}">
-                <img src="${imageSmall}" alt="photo_of_my_projects" class="for-small-size">
+                <img src="${imageBig}" alt="photo_of_my_projects" class="for-small-size">
                 <img src="${imageBig}" alt="Snapshoot_portfolio" class="for-big-size">
             </div>
 
@@ -107,7 +115,7 @@ const displayProjects = ({
                     <ul>
                         <li>${client}</li>
                         <li>${position}</li>
-                        <li>>${year}</li>
+                        <li>${year}</li>
                     </ul>
                 </div>
                 <p class="primary-text"> ${description} </p>
@@ -125,7 +133,7 @@ const displayProjects = ({
 };
 
 const displayProjectItems = ({
-  imageSmall, title, client, position, year, description, skills,
+  title, imageBig, client, position, year, description, Live, Repo, skills,
 }) => {
   const div = document.createElement('div');
   div.className = 'pop-window';
@@ -140,7 +148,9 @@ const displayProjectItems = ({
             <li>${year}</li>
         </ul>
         <div class="pop-body">
-            <img class="pop-photo" src=${imageSmall} alt=" " />
+          
+          <img class="pop-photo" src=${imageBig} alt=" " />
+            
             <div class="desc-and-tech">
                 <div class="pop-description">
                         <p>${description}
@@ -149,15 +159,14 @@ const displayProjectItems = ({
                 <div class="tech-and-buttons">
                     <div class="pop-tech-container">
                         <ul class="pop-tech">
-                        <li>${skills[0]}</li>
-                        <li>${skills[1]}</li>
-                        <li>${skills[2]}</li>
-                        
+                          <li>${skills[0]}</li>
+                          <li>${skills[1]}</li>
+                          <li>${skills[2]}</li>
                         </ul>
                         <hr>
                         <div class="pop-button">
-                        <button href="">See Live</button>
-                        <button href="">See Source</button>
+                        <button><a href="${Live}">See Live</a></button>
+                        <button><a href="${Repo}">See Source</a></button>
                         </div>
                     </div>
                 </div>
