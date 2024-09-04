@@ -13,7 +13,7 @@ This is the first page of my mobile setup porfolio project. It contains my name 
 ![contact-section](images/contact-me-section-1.png)
 
 # Live preview
-https://teitonny.github.io/
+[LIVE](https://tonnytech.github.io/final-portfolio/)
 
 # Getting started
 To get a local copy up and running, do the following steps:
